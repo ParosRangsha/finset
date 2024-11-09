@@ -1,0 +1,16 @@
+@media (max-width: 756px) {
+    a{
+        display: inline-block !important;
+    }
+    header main{
+        display: block;
+    }
+    header main img{
+        width: 126px;
+        height: 27px;
+    }
+    ul{
+        margin: 10px 0 !important;
+    }
+
+}

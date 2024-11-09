@@ -1,0 +1,75 @@
+.project{
+    padding: 126px 0;
+}
+.project .projectHeading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 64px;
+}
+.project h2{
+    font-size: 48px;
+    font-weight: 600;
+}
+.project .projectCard .myCard{
+    position: relative;
+}
+.project .projectCard .myCard .overflowTxt{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    padding: 75px 48px;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background: linear-gradient(-45deg, rgba(30, 30, 50, 0.9), rgba(200, 200, 200, 0.7));
+    color: #fff;
+    transition: 1s;
+    transform: scaleX(0);
+}
+.project .projectCard .myCard:hover > .overflowTxt{
+    left: 0;
+    transform: scaleX(1);
+}
+.project .projectCard .myCard h4{
+    font-size: 24px;
+    padding-bottom: 112px;
+}
+.project .projectCard .myCard a{
+    color: #fff;
+}
+
+.project .rightPart{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.project .projectCard .myCardTwo{
+    position: relative;
+}
+.project .projectCard .myCardTwo .overflowTxtTwo{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 45px 56px;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background: linear-gradient(-45deg, rgba(30, 30, 50, 0.9), rgba(200, 200, 200, 0.7));
+    color: #fff;
+    transition: 1s;
+    transform: scaleX(0);
+}
+.project .projectCard .myCardTwo:hover > .overflowTxtTwo{
+    transform: scaleX(1);
+}
+.project .projectCard .myCardTwo h4{
+    font-size: 24px;
+}
+.project .projectCard .myCardTwo a{
+    color: #fff;
+}
