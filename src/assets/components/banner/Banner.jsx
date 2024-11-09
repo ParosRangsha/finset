@@ -13,7 +13,7 @@ function Banner() {
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                     <div className="buttons">
                         <a href="#" id='viewourwork'>View our work</a>
-                        <a href="#" id='viewpricing'>View Pricing <i class="fa-solid fa-arrow-right-long"></i></a>
+                        <a href="#" id='viewpricing'>View Pricing <i className="fa-solid fa-arrow-right-long"></i></a>
                     </div>
                 </Col>
                 <Col lg={6}>

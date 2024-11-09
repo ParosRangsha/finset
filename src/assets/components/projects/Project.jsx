@@ -11,7 +11,7 @@ function Project() {
         <Container>
             <div className='projectHeading'>
                 <h2>View our projects</h2>
-                <a href="#">View More <i class="fa-solid fa-arrow-right-long"></i></a>
+                <a href="#">View More <i className="fa-solid fa-arrow-right-long"></i></a>
             </div>
             <div className='projectCard'>
                 <Row>
@@ -19,7 +19,7 @@ function Project() {
                         <img src={projectCard} alt="card" />
                         <div className='overflowTxt'>
                             <h4>Workhub office Webflow Webflow Design</h4>
-                            <a href="#">View Project <i class="fa-solid fa-arrow-right-long"></i></a>
+                            <a href="#">View Project <i className="fa-solid fa-arrow-right-long"></i></a>
                         </div>
                     </Col>
                     <Col lg={4} className='rightPart'>
@@ -27,7 +27,7 @@ function Project() {
                             <img src={projectCardTwo} alt="card" />
                             <div className='overflowTxtTwo'>
                                 <h4>Unisaas Website Design</h4>
-                                <a href="#">View portfolio <i class="fa-solid fa-arrow-right-long"></i></a>
+                                <a href="#">View portfolio <i className="fa-solid fa-arrow-right-long"></i></a>
                             </div>
                         </div>
                         <div className='myCardThree'>

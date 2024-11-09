@@ -14,7 +14,7 @@ function Work() {
                 <Col lg={5}>
                     <h2>How we work</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                    <a href="#">Get in touch with us <i class="fa-solid fa-arrow-right-long"></i></a>
+                    <a href="#">Get in touch with us <i className="fa-solid fa-arrow-right-long"></i></a>
                 </Col>
                 <Col lg={7} className='workRight'>
                   <Col lg={6} className='item'>
