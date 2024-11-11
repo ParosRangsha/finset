@@ -5,6 +5,7 @@ import numOne from '../../../assets/numOne.png'
 import numTwo from '../../../assets/numTwo.png'
 import numThree from '../../../assets/numThree.png'
 import numFour from '../../../assets/numFour.png'
+import Workreuseable from '../reuseable/Workreuseable'
 
 function Work() {
   return (
@@ -17,26 +18,10 @@ function Work() {
                     <a href="#">Get in touch with us <i className="fa-solid fa-arrow-right-long"></i></a>
                 </Col>
                 <Col lg={7} className='workRight'>
-                  <Col lg={6} className='item'>
-                    <img src={numOne} alt="one" />
-                    <h3>Strategy</h3>
-                    <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam .</p>
-                  </Col>
-                  <Col lg={6} className='item'>
-                    <img src={numTwo} alt="two" />
-                    <h3>Wireframing</h3>
-                    <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam .</p>
-                  </Col>
-                  <Col lg={6} className='item'>
-                    <img src={numThree} alt="three" />
-                    <h3>Design</h3>
-                    <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam .</p>
-                  </Col>
-                  <Col lg={6} className='item'>
-                    <img src={numFour} alt="four" />
-                    <h3>Development</h3>
-                    <p>Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam .</p>
-                  </Col>
+                  <Workreuseable img={numOne} title="Strategy" paragraph="Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam ."/>
+                  <Workreuseable img={numTwo} title="Wireframing" paragraph="Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam ."/>
+                  <Workreuseable img={numThree} title="Design" paragraph="Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam ."/>
+                  <Workreuseable img={numFour} title="Development" paragraph="Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam ."/>
                 </Col>
             </Row>
         </Container>
