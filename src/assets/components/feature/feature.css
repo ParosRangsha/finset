@@ -1,0 +1,23 @@
+.feature{
+    padding: 126px 0;
+    background-color: #F4F6FC;
+}
+.feature h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+}
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.feature img{
+    width: 32px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 0;
+}
