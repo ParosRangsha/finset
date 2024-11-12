@@ -7,6 +7,8 @@ import Project from './assets/components/projects/Project'
 import Feature from './assets/components/feature/Feature'
 import Review from './assets/components/review/Review'
 import Question from './assets/components/question/Question'
+import Quiry from './assets/components/quiry/Quiry'
+import Blog from './assets/components/blog/Blog'
 
 function App() {
 
@@ -19,6 +21,8 @@ function App() {
      <Feature/>
      <Review/>
      <Question/>
+     <Quiry/>
+     <Blog/>
     </>
   )
 }

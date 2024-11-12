@@ -1,5 +1,6 @@
 .question{
     padding: 126px 0;
+    background-color: #F4F6FC;
 }
 .question .options{
     display: flex;
