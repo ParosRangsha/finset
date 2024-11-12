@@ -1,7 +1,7 @@
 import React from 'react'
 import './question.css'
 import { Col, Container, Row } from 'react-bootstrap'
-import Quesreuseable from '../reuseable/quesreuseable'
+import Quesreuseable from '../reuseable/Quesreuseable'
 function Question() {
   return (
     <div className='question'>
