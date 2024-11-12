@@ -1,0 +1,18 @@
+.review{
+    padding: 126px 0;
+}
+.review h3{
+    font-size: 38px;
+    font-weight: 700;
+}
+.review h4{
+    text-align:  justify;
+}
+.review .profile{
+    display: flex;
+    gap: 14px;
+    margin-top: 48px;
+}
+.review .profile img{
+    width: 52px;
+}
