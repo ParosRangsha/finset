@@ -2,22 +2,9 @@ import React from 'react'
 import './question.css'
 import { Col, Container, Row } from 'react-bootstrap'
 import Quesreuseable from '../reuseable/quesreuseable'
+import './script.js'
 
 function Question() {
-    {
-        let myid;
-        let btnHidShow = document.querySelectorAll(".hideshow")
-        let arrayBtnHidShow = Array.from(btnHidShow)
-        arrayBtnHidShow.map((item, index)=>{
-            item.addEventListener("click",()=>{                
-                let para = document.querySelectorAll(".mypara")
-                let arrayPara = Array.from(para)
-                if(arrayPara[index].style.display = "none"){
-                    arrayPara[index].style.display = "block"
-                }
-            })
-        })
-    }
   return (
     <div className='question'>
         <Container>

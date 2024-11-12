@@ -5,13 +5,13 @@
     display: flex;
 }
 .question .options h5{
-    width: 10%;
+    width: 5%;
 }
 .question .options .ques{
-    width: 80%;
+    width: 90%;
 }
 .question .options h4{
-    width: 10%;
+    width: 5%;
     text-align: right;
     cursor: pointer;
 }
