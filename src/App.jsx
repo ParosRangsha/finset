@@ -6,6 +6,7 @@ import Work from './assets/components/ourwork/Work'
 import Project from './assets/components/projects/Project'
 import Feature from './assets/components/feature/Feature'
 import Review from './assets/components/review/Review'
+import Question from './assets/components/question/Question'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
      <Project/>
      <Feature/>
      <Review/>
+     <Question/>
     </>
   )
 }
