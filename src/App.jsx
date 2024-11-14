@@ -9,6 +9,7 @@ import Review from './assets/components/review/Review'
 import Question from './assets/components/question/Question'
 import Quiry from './assets/components/quiry/Quiry'
 import Blog from './assets/components/blog/Blog'
+import Footer from './assets/components/footer/Footer'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
      <Question/>
      <Quiry/>
      <Blog/>
+     <Footer/>
     </>
   )
 }
